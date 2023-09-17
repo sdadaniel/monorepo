@@ -3,4 +3,9 @@ const add = (a, b) => {
   return a + b;
 };
 
-module.exports = add;
+const subtract = (a, b) => {
+  console.log(a, b);
+  return a - b;
+};
+
+module.exports = { subtract, add };
