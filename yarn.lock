@@ -409,7 +409,7 @@
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
 "@sdadaniel/npm-package-test@file:C:\\Users\\sdada\\OneDrive\\바탕 화면\\sdadaniel\\monorepo\\packages\\npm-package-test":
-  version "1.0.7-alpha.0"
+  version "1.0.8-alpha.0"
   resolved "file:packages/npm-package-test"
 
 "@sigstore/bundle@^1.1.0":
