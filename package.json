@@ -5,8 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "publish:from-package": "npx lerna --no-private publish from-package",
-    "test": "echo 1"
+    "publish:from-package": "npx lerna --no-private publish from-package"
   },
   "dependencies": {},
   "devDependencies": {
