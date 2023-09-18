@@ -5,7 +5,6 @@ const add = (a, b) => {
 
 const subtract = (a, b) => {
   console.log(a, b);
-  console.log("subtract!");
   return a - b;
 };
 
