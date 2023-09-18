@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "publish:from-package": "npx lerna --no-private publish from-package",
+    "test": "echo 1"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^7.3.0"
