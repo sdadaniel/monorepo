@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Build Success\"",
-    "publish": "npm publish --access=public"
+    "build": "echo \"Build Success\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "d340a32a895fd2d0bc91d87f0d545db30337b421"
 }
