@@ -533,6 +533,11 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
+"@sdadaniel/npm-package-test@^1.0.14-alpha.0":
+  version "1.0.14-alpha.0"
+  resolved "https://registry.yarnpkg.com/@sdadaniel/npm-package-test/-/npm-package-test-1.0.14-alpha.0.tgz#85e5dde802650a84d7e67d6aa0efc45e2c1303a2"
+  integrity sha512-osTqf8sBAG4VtOFzXK1FuwdZJdqDV9ekefPBeRVU1K1Sa9/2c1QoyjMd5XGWVz5WPynDGGD9rbclzW8yJYkWrg==
+
 "@sigstore/bundle@^1.1.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@sigstore/bundle/-/bundle-1.1.0.tgz"
@@ -5163,12 +5168,7 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@5.2.2:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
-  integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
-
-"typescript@>=3 < 6":
+typescript@5.2.2, "typescript@>=3 < 6":
   version "5.2.2"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
