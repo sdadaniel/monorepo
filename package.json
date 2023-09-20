@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "service/*"
   ],
   "scripts": {
     "publish:from-package": "npx lerna --no-private publish from-package",
