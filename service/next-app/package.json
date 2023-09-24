@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "lerna test"
   },
   "dependencies": {
     "@sdadaniel/npm-package-test": "file:../../packages/npm-package-test/",
