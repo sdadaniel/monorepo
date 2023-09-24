@@ -1,0 +1,17 @@
+{
+  "name": "ejs-env",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sdadaniel/npm-package-test": "file:../../packages/npm-package-test/"
+  }
+}

@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sdadaniel/npm-package-test": "^1.0.14-alpha.0",
+    "@sdadaniel/npm-package-test": "file:../../packages/npm-package-test/",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
