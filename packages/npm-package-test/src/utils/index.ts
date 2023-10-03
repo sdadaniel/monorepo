@@ -1,11 +1,9 @@
-import _ from "lodash";
-
 interface addType {
   a: number;
   b: number;
 }
 const add = ({ a, b }: addType) => {
-  return _.add(a, b);
+  return a + b;
 };
 
 const subtract = (a: number, b: number) => {

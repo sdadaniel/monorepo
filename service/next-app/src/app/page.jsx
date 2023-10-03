@@ -1,14 +1,19 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { add } from "@sdadaniel/npm-package-test";
+// import { add, subtract } from "@sdadaniel/npm-package-test";
+
+const { add, subtract } = require("@sdadaniel/npm-package-test");
 
 export default function Home() {
-  console.log("test", add(10));
+  console.log("test", add(10, 100));
+  console.log("test", subtract(10, 100));
 
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
+          {subtract(10, 100)}
+          {subtract(10, 30)}
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>

@@ -579,11 +579,6 @@
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sdadaniel/npm-package-test@file:packages/npm-package-test":
-  version "1.0.17-alpha.0"
-  dependencies:
-    lodash "^4.17.21"
-
 "@sdadaniel/npm-package-test@latest":
   version "1.0.16-alpha.0"
   resolved "https://registry.yarnpkg.com/@sdadaniel/npm-package-test/-/npm-package-test-1.0.16-alpha.0.tgz#dd6f25a5c2eecf2751643e515cd55ca2b48de479"
