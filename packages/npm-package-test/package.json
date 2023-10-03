@@ -10,7 +10,6 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Build Success\"",
     "prebuild": "del-cli dist",
     "rollup": "yarn prebuild && rollup --config rollup.config.js"
   },

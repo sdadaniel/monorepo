@@ -6,10 +6,8 @@
     "service/*"
   ],
   "scripts": {
-    "publish:from-package": "npx lerna --no-private publish from-package",
-    "ler-ver": "npx lerna version --no-private",
-    "ler-publish": "npx lerna publish --no-private",
-    "na:dev": "yarn workspace next-app dev"
+    "lerna:version": "npx lerna version --no-private",
+    "lerna:publish": "npx lerna publish --no-private"
   },
   "dependencies": {},
   "devDependencies": {
