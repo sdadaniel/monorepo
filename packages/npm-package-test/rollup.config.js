@@ -20,9 +20,9 @@ module.exports.default = [
     ],
     plugins: [typescript()],
   },
-  {
-    input: "dist/esm/types/index.d.ts",
-    output: [{ file: "dist/index.d.ts", format: "esm" }],
-    plugins: [dts()],
-  },
+  // {
+  //   input: "dist/esm/types/index.d.ts",
+  //   output: [{ file: "dist/index.d.ts", format: "esm" }],
+  //   plugins: [dts()],
+  // },
 ];
