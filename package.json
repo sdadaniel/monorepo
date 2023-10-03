@@ -8,6 +8,7 @@
   "scripts": {
     "publish:from-package": "npx lerna --no-private publish from-package",
     "ler-ver": "npx lerna version --no-private",
+    "ler-publish": "npx lerna publish --no-private",
     "na:dev": "yarn workspace next-app dev"
   },
   "dependencies": {},
