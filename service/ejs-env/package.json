@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sdadaniel/npm-package-test": "file:../../packages/npm-package-test/"
+    "@sdadaniel/npm-package-test": "latest"
   }
 }
