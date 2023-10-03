@@ -1,12 +1,11 @@
-interface addType {
-  a: number;
-  b: number;
-}
-const add = ({ a, b }: addType) => {
+const add = ({ a, b }: { a: number; b: number }) => {
   return a + b;
 };
 
 const subtract = (a: number, b: number) => {
+  return a - b;
+};
+const test = (a: number, b: number) => {
   return a - b;
 };
 

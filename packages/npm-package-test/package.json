@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "del-cli dist",
-    "rollup": "yarn prebuild && rollup --config rollup.config.js"
+    "build": "yarn prebuild && rollup --config rollup.config.js"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,9 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.4",
     "@types/lodash": "^4.14.199",
     "@types/react": "^18.2.22",

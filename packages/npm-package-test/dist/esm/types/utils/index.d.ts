@@ -1,7 +1,6 @@
-interface addType {
+declare const add: ({ a, b }: {
     a: number;
     b: number;
-}
-declare const add: ({ a, b }: addType) => number;
+}) => number;
 declare const subtract: (a: number, b: number) => number;
 export { subtract, add };
