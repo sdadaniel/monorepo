@@ -1,12 +1,17 @@
 import Image from "next/image";
+import { add } from "utils";
+import { Button } from "widget";
 import styles from "./page.module.css";
 
 export default function Home() {
+  console.log(add(1, 1));
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <Button />
         <p>
           Get started by editing&nbsp;
+          {add(1, 1)}
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
